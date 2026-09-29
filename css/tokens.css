@@ -1,0 +1,60 @@
+/* Zero website v5. Tokens.
+   A calm white canvas, one ink, big confident type. Colour comes from the product itself:
+   the real footage, the 3D title art, Zero green on the one button that matters, gold for XP only. */
+
+@font-face { font-family: "Zero Sans"; src: url("../assets/fonts/GoogleSansFlex-wght-ROND.woff2") format("woff2"); font-weight: 200 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Zero Mono"; src: url("../assets/fonts/SupplyMono-400_700.woff") format("woff"); font-weight: 400 700; font-display: swap; }
+
+:root {
+  --canvas: #fafafa;
+  --white: #ffffff;
+  --well: #ededed;          /* cards, the nav, the rounded containers product sits in */
+  --well-2: #e4e4e4;
+  --ink: #0f0f0f;           /* one ink. hierarchy is this at 100, 50, 40 and 30 percent */
+  --ink-2: rgba(15, 15, 15, 0.72);
+  --grey: rgba(15, 15, 15, 0.5);
+  --grey-2: rgba(15, 15, 15, 0.3);
+  --faint: rgba(15, 15, 15, 0.4);
+  --line: rgba(15, 15, 15, 0.08);
+
+  --night: #0e0e10;         /* product frames, and the onboarding's own ground */
+  --night-2: #19191c;
+  --forest: #0d2016;
+  --green: #1d9e4b;         /* the primary button, and nothing decorative */
+  --green-hi: #36c267;
+  --mint: #dcf4e3;
+  --xp: #f5c542;
+  --neon: #7dffa2;          /* the sticker behind one word. two on the whole page */
+  --ui: #0a0909;            /* butter's product panels */
+  --ui-cell: #151515;
+  --ui-label: #b6b6b6;
+
+  --sans: "Inter Tight", "Zero Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;   /* Navid's face. light weights only */
+  --mono: "Zero Mono", "PP Supply Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* butter's scale, measured at 1440: 108 / 60 / 45 / 24.5 / 20.75 / 16 / 13.5 */
+  --t-hero: clamp(3rem, 1.3rem + 5.2vw, 6.6rem);
+  --t-h2: clamp(1.9rem, 1.2rem + 2vw, 3.25rem);
+  --t-say: clamp(1.8rem, 1rem + 2.3vw, 3.4rem);
+  --t-h3: clamp(1.2rem, 1rem + 0.5vw, 1.55rem);
+  --t-lead: clamp(1rem, 0.95rem + 0.2vw, 1.15rem);
+  --t-body: 1rem;
+  --t-small: 0.84375rem;
+  --t-label: 0.84375rem;
+  --t-mono: 0.6875rem;
+
+  --gut: clamp(1rem, 0.2rem + 3.4vw, 3rem);
+  --max: 1320px;
+  --r-pill: 999px;
+  --r-btn: 16px;
+  --r-card: 20px;
+  --r-well: clamp(22px, 1rem + 1.1vw, 32px);
+  --r-frame: clamp(14px, 0.7rem + 0.5vw, 20px);
+  --r-page: clamp(28px, 1rem + 2.8vw, 60px);
+
+  --ease: cubic-bezier(0.835, 0.12, 0.225, 0.77);
+  --ease-out: cubic-bezier(0.2, 0.715, 0.205, 0.99);
+  --d-1: 0.18s; --d-2: 0.36s; --d-3: 0.7s;
+
+  --z-content: 2; --z-nav: 50; --z-sheet: 60; --z-fx: 70; --z-loader: 100;
+}
